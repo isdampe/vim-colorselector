@@ -1,3 +1,4 @@
+scriptencoding utf-8
 " ScrollColors.vim - Colorsheme Scroller, Chooser, and Browser
 "
 "     Author and maintainer: Yakov Lerner <iler_ml@fastmail.fm>
@@ -33,7 +34,7 @@
 "   and map them as follows:
 "      map <silent><F3> :NEXTCOLOR<cr>
 "      map <silent><F2> :PREVCOLOR<cr>
-
+"      scriptencoding utf-8
 
 if exists("g:scroll_colors") | finish | endif
 let g:scroll_colors = 1
